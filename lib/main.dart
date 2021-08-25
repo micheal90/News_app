@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.w600),
                 iconTheme: IconThemeData(color: Colors.black),
                 systemOverlayStyle: SystemUiOverlayStyle(
-                  statusBarBrightness: Brightness.light,
+                  statusBarBrightness: Brightness.dark,
                   statusBarColor: Color(0xfff5edee),
                 )),
             //primaryColor: Color(0xfff5edee),
@@ -76,7 +76,7 @@ class MyApp extends StatelessWidget {
                 ),
                 iconTheme: IconThemeData(color: Colors.white),
                 systemOverlayStyle: SystemUiOverlayStyle(
-                  statusBarBrightness: Brightness.dark,
+                  statusBarBrightness: Brightness.light,
                   statusBarColor: Color(0xff6e6b6d),
                 )),
             //primaryColor: Color(0xff6e6b6d),
