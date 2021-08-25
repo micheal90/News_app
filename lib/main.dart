@@ -37,19 +37,20 @@ class MyApp extends StatelessWidget {
         title: 'News App',
         theme: ThemeData(
             appBarTheme: AppBarTheme(
-                backgroundColor: Color(0xfff5edee),
-                elevation: 0,
-                backwardsCompatibility: false,
-                titleSpacing: 8,
-                titleTextStyle: TextStyle(
-                    color: Colors.black,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600),
-                iconTheme: IconThemeData(color: Colors.black),
-                systemOverlayStyle: SystemUiOverlayStyle(
-                  statusBarBrightness: Brightness.dark,
-                  statusBarColor: Color(0xfff5edee),
-                )),
+              backgroundColor: Color(0xfff5edee),
+              elevation: 0,
+              backwardsCompatibility: false,
+              titleSpacing: 8,
+              titleTextStyle: TextStyle(
+                  color: Colors.black,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600),
+              iconTheme: IconThemeData(color: Colors.black),
+              // systemOverlayStyle: SystemUiOverlayStyle(
+              //   statusBarBrightness: Brightness.dark,
+              //statusBarColor: Color(0xfff5edee),
+              //)
+            ),
             //primaryColor: Color(0xfff5edee),
             primarySwatch: Colors.deepOrange,
             textTheme: TextTheme(
@@ -60,8 +61,8 @@ class MyApp extends StatelessWidget {
               bodyText2: TextStyle(color: Colors.black, fontSize: 14),
             ),
             scaffoldBackgroundColor: Color(0xfff5edee),
-            floatingActionButtonTheme:
-                FloatingActionButtonThemeData(backgroundColor: Colors.deepOrange),
+            floatingActionButtonTheme: FloatingActionButtonThemeData(
+                backgroundColor: Colors.deepOrange),
             bottomNavigationBarTheme: BottomNavigationBarThemeData(
                 backgroundColor: Color(0xfff5edee),
                 selectedItemColor: Colors.deepOrange,
