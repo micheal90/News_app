@@ -31,8 +31,8 @@ class ArticleWidget extends StatelessWidget {
           // mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Container(
-              height: 120,
-              width: 120,
+              height: 150,
+              width: 150,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
                   image: DecorationImage(
@@ -43,7 +43,7 @@ class ArticleWidget extends StatelessWidget {
             ),
             Expanded(
               child: Container(
-                height: 120,
+                height: 150,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -54,11 +54,10 @@ class ArticleWidget extends StatelessWidget {
                         style: Theme.of(context).textTheme.bodyText1,
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
+                        
                       ),
                     ),
-                    // const SizedBox(
-                    //   height: 15,
-                    // ),
+                   // const Divider(color: Colors.black,),
                     Text(
                       description,
                       style: Theme.of(context).textTheme.bodyText2,

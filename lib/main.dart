@@ -39,7 +39,6 @@ class MyApp extends StatelessWidget {
             appBarTheme: AppBarTheme(
               backgroundColor: Color(0xfff5edee),
               elevation: 0,
-              backwardsCompatibility: false,
               titleSpacing: 8,
               titleTextStyle: TextStyle(
                   color: Colors.black,
@@ -56,7 +55,7 @@ class MyApp extends StatelessWidget {
             textTheme: TextTheme(
               bodyText1: TextStyle(
                 color: Colors.black,
-                fontSize: 18,
+                fontSize: 16,
               ),
               bodyText2: TextStyle(color: Colors.black, fontSize: 14),
             ),
@@ -84,9 +83,9 @@ class MyApp extends StatelessWidget {
             primarySwatch: Colors.deepOrange,
             textTheme: TextTheme(
               bodyText1: TextStyle(
-                color: Colors.white,
-                fontSize: 18,
-              ),
+                  color: Colors.white,
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold),
               bodyText2: TextStyle(color: Colors.white, fontSize: 14),
             ),
             scaffoldBackgroundColor: Color(0xff6e6b6d),
