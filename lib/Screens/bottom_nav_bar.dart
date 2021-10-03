@@ -45,11 +45,12 @@ class _BottomNavBarState extends State<BottomNavBar> {
               onPressed: () => Navigator.push(
                   context, MaterialPageRoute(builder: (_) => SearchScreen())),
               icon: Icon(Icons.search)),
-          IconButton(
-            onPressed: () => Provider.of<MainProvider>(context, listen: false)
-                .changeThemeMode(),
-            icon: Icon(
-              Icons.brightness_4_outlined,
+          Consumer<MainProvider>(
+            builder: (context, value, child) => IconButton(
+              onPressed: () => value.changeThemeMode(),
+              icon: Icon(
+                value.isDark ? Icons.brightness_4 : Icons.brightness_4_outlined,
+              ),
             ),
           ),
         ],
