@@ -1,7 +1,7 @@
 # news_app
 # ScreenShot
 ![Slide2](https://user-images.githubusercontent.com/26098900/135767097-efeb864f-c026-44d5-8553-2fee3cf73bff.PNG)
-![Slide1](https://user-images.githubusercontent.com/26098900/135767110-e516f38d-a278-47f3-9ef0-8f96e2949f9c.PNG)
+
 
 A new Flutter project.
 
